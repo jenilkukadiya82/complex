@@ -20,3 +20,6 @@ jobs:
     runs-on:  windows-latest
     steps:
     - run: date
+    - uses: cclauss/Find-Python-syntax-errors-action@master
+        
+
